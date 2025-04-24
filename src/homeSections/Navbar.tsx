@@ -23,7 +23,7 @@ export const Navbar = () => {
         <Link
           to="/projects"
           className={`nav-item  ${
-            pathname === "projects"
+            pathname === "/projects"
               ? "bg-white/80 text-gray-900"
               : "hover:bg-indigo-500 hover:text-gray-900"
           }`}

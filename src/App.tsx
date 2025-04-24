@@ -1,6 +1,6 @@
 import { Navbar } from "./homeSections/Navbar";
-import Home from "./homeSections/Home";
-import Projects from "./projectSections/Projects";
+import { Home } from "./Home";
+import { Projects } from "./projectSections/Projects";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
