@@ -49,14 +49,6 @@ export const Profile = () => {
           </h2>
         </div>
 
-        {/* Description */}
-        <div className="px-6 py-4 ">
-          <p className="text-gray-600 text-center">
-            Passionate about creating beautiful, responsive web applications
-            with React and modern web technologies.
-          </p>
-        </div>
-
         {/* Social Links */}
         <div className="px-6 py-4 flex justify-between gap-8">
           <a
