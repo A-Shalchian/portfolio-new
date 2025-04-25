@@ -1,0 +1,109 @@
+{
+  "categories": [
+    {
+      "name": "Frontend",
+      "iconName": "FaCode",
+      "skills": [
+        {
+          "name": "React",
+          "iconName": "FaReact",
+          "iconColor": "text-blue-400"
+        },
+        {
+          "name": "Next.js",
+          "iconName": "TbBrandNextjs",
+          "iconColor": "text-white"
+        },
+        {
+          "name": "JavaScript",
+          "iconName": "SiJavascript",
+          "iconColor": "text-yellow-400"
+        },
+        {
+          "name": "TypeScript",
+          "iconName": "SiTypescript",
+          "iconColor": "text-blue-500"
+        },
+        {
+          "name": "HTML5",
+          "iconName": "FaHtml5",
+          "iconColor": "text-orange-500"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconName": "SiTailwindcss",
+          "iconColor": "text-cyan-400"
+        }
+      ]
+    },
+    {
+      "name": "Backend",
+      "iconName": "FaNodeJs",
+      "skills": [
+        {
+          "name": "Node.js",
+          "iconName": "FaNodeJs",
+          "iconColor": "text-green-500"
+        },
+        {
+          "name": "Express",
+          "iconName": "SiExpress",
+          "iconColor": "text-gray-300"
+        },
+        {
+          "name": "MongoDB",
+          "iconName": "SiMongodb",
+          "iconColor": "text-green-400"
+        },
+        {
+          "name": "Firebase",
+          "iconName": "SiFirebase",
+          "iconColor": "text-yellow-500"
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "iconName": "FaGitAlt",
+      "skills": [
+        {
+          "name": "Git",
+          "iconName": "FaGitAlt",
+          "iconColor": "text-orange-500"
+        },
+        {
+          "name": "Postman",
+          "iconName": "SiPostman",
+          "iconColor": "text-orange-400"
+        },
+        {
+          "name": "Figma",
+          "iconName": "FaFigma",
+          "iconColor": "text-pink-500"
+        },
+        {
+          "name": "ESLint",
+          "iconName": "SiEslint",
+          "iconColor": "text-purple-500"
+        }
+      ]
+    },
+    {
+      "name": "DevOps",
+      "iconName": "FaServer",
+      "skills": [
+        { "name": "AWS", "iconName": "FaAws", "iconColor": "text-orange-400" },
+        {
+          "name": "Docker",
+          "iconName": "FaDocker",
+          "iconColor": "text-blue-500"
+        },
+        {
+          "name": "GitHub Actions",
+          "iconName": "SiGithubactions",
+          "iconColor": "text-purple-400"
+        }
+      ]
+    }
+  ]
+}
