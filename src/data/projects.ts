@@ -9,7 +9,7 @@ export interface Project {
   inDevelopment?: boolean;
 }
 
-import blogapp from "../assets/images/blogimg.png";
+import blogapp from "../assets/images/projects/blogimg.png";
 
 export const projectsData: Project[] = [
   {

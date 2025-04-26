@@ -1,7 +1,8 @@
 import { FaCode, FaGithub } from "react-icons/fa";
 import { BiRocket } from "react-icons/bi";
 import { IoConstructOutline } from "react-icons/io5";
-import blogapp from "../assets/images/blogimg.png";
+import blogapp from "../assets/images/projects/blogimg.png";
+import { getTechIcon } from "../data/techIcons";
 
 export const Project = () => {
   return (
@@ -23,12 +24,12 @@ export const Project = () => {
               <IoConstructOutline className="text-base" />
               In Development
             </div>
-            <div>
+            <div className="mb-3">
               <a
                 href="https://github.com/ArashShalchian/blog-app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 bg-indigo-500 hover:bg-indigo-600 text-white py-1.5 px-3 rounded-lg transition-colors text-sm font-semibold flex-1 justify-center"
+                className="flex items-center gap-2 bg-indigo-500 hover:bg-indigo-600 text-white py-1.5 px-3 rounded-full transition-colors text-sm font-semibold flex-1 justify-center"
               >
                 <FaGithub />
                 GitHub Repo
@@ -68,14 +69,24 @@ export const Project = () => {
             </h4>
             <div className="flex flex-wrap gap-2">
               {["React", "Node.js", "MongoDB", "Express", "Tailwind CSS"].map(
-                (tech) => (
-                  <span
-                    key={tech}
-                    className="bg-gray-800/60 text-gray-300 text-xs px-2.5 py-1 rounded-full"
-                  >
-                    {tech}
-                  </span>
-                )
+                (tech) => {
+                  const techIconData = getTechIcon(tech);
+                  const IconComponent = techIconData?.icon;
+
+                  return (
+                    <span
+                      key={tech}
+                      className="bg-indigo-900 text-gray-300 text-xs px-2.5 py-1 rounded-full flex items-center gap-1"
+                    >
+                      {IconComponent && (
+                        <IconComponent
+                          className={techIconData?.color || "text-gray-300"}
+                        />
+                      )}
+                      {tech}
+                    </span>
+                  );
+                }
               )}
             </div>
           </div>

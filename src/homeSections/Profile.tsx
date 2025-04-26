@@ -5,7 +5,7 @@ import { MdLocationOn } from "react-icons/md";
 
 export const Profile = () => {
   return (
-    <section className="w-full py-12 px-4 flex justify-center items-center mt-4">
+    <section className="w-full pt-12 px-4 flex justify-center items-center mt-4">
       <div className="bg-[#1E2934] rounded-lg shadow-2xl max-w-md w-full overflow-hidden border border-gray-700 relative">
         {/* Resume Button - Top Left */}
         <div className="absolute top-3 left-3 z-20">
